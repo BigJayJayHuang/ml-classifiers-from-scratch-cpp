@@ -268,7 +268,7 @@ int main() {
 
     cout << "SVM Predictions:" << endl;
     for (const auto& prediction : svmPredictions) {
-        cout << (prediction == 1 ? "Male" : "Female") << endl;
+        cout << (prediction == 1 ? "Female" : "Male") << endl;
     }
     cout << endl;
 
